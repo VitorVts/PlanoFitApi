@@ -1,0 +1,6 @@
+@PlanoFitApi_HostAddress = http://localhost:5289
+
+GET {{PlanoFitApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
