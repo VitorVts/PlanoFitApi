@@ -11,6 +11,6 @@ public class PerfilFitness
     public double Altura { get; set; }
     public int Idade { get; set; }
     public ObjetivoEnum Objetivo { get; set; }
-    public string RestricaoAlimentar { get; set; }
+    public string? RestricaoAlimentar { get; set; }
     public DateTime CreatedAt { get; set; }
 }
