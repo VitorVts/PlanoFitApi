@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PlanoFitApi.Models;
 
@@ -10,9 +11,11 @@ using PlanoFitApi.Models;
 namespace PlanoFitApi.Migrations
 {
     [DbContext(typeof(PlanoFitContext))]
-    partial class PlanoFitContextModelSnapshot : ModelSnapshot
+    [Migration("20240717001142_AddPasswordColumn")]
+    partial class AddPasswordColumn
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.7");

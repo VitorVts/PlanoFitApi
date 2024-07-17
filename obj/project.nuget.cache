@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7fDlLquT+uA=",
+  "dgSpecHash": "OBRbzZGHw+E=",
   "success": true,
   "projectFilePath": "C:\\Users\\Vts\\Documents\\BackEnd\\PlanoFitApi\\PlanoFitApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vts\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Vts\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\Vts\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Vts\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Vts\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Vts\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
